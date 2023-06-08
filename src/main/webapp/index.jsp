@@ -1,33 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-ul {
-  list-style: none; /* Remove HTML bullets */
-  padding: 0;
-  margin: 0;
-}
-
-li { 
-  padding-left: 16px; 
-}
-
-li::before {
-  content: "•"; /* Insert content that looks like bullets */
-  padding-right: 8px;
-  color: blue; /* Or a color you prefer */
-}
-</style>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-<h1>The content Property</h1>
+<h2>Responsive Image</h2>
+<p>When the CSS width property is set in a percentage value, the image will scale up and down when resizing the browser window. Resize the browser window to see the effect.</p>
 
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
+<img src="img_girl.jpg" style="width:100%;">
 
 </body>
 </html>

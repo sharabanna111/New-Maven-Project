@@ -1,12 +1,33 @@
+<!DOCTYPE html>
 <html>
+<head>
+<style>
+ul {
+  list-style: none; /* Remove HTML bullets */
+  padding: 0;
+  margin: 0;
+}
+
+li { 
+  padding-left: 16px; 
+}
+
+li::before {
+  content: "•"; /* Insert content that looks like bullets */
+  padding-right: 8px;
+  color: blue; /* Or a color you prefer */
+}
+</style>
+</head>
 <body>
-<h1><font color='red'>Welcome to Devops IT <font></h1>
-<h2>Learn Here.. Lead Anywhere..!! </h2>
-<h2>Learn Team plz contact Venu..!! </h2>
-  <h2>Learn Team plz contact Venu..!! </h2>
-<a href="https://ashokitech.com/online-training-schedules">Click Here To See Ashok IT Training Schedules</a>
-  
-  <h2> Call Us : + 91 - 99 85 39 66 77 </h2>
+
+<h1>The content Property</h1>
+
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Coca Cola</li>
+</ul>
 
 </body>
 </html>
